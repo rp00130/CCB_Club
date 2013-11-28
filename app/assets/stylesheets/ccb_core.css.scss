@@ -1,0 +1,58 @@
+// Place all the styles related to the ccb_core controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+nav {
+  width: 160px;
+  position:absolute;
+}
+hi {
+  font-family:verdana;
+  font-weight:bold;
+}
+p
+{
+width:750px;
+padding:10px;
+border:5px;
+margin:0px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+li {
+  font: 200 15px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+ 
+li:last-child {
+  border: none;
+}
+ 
+li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 160px;
+ 
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+ 
+li a:hover {
+  font-size: 25px;
+  background: #f6f6f6;
+  color:#000000;
+}
+
+
+body { 
+background-image: url(image_path('background2.jpg'));
+background-size: cover; 
+}
